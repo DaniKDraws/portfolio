@@ -22,14 +22,14 @@ title: Dani K Draws
 email: danikdraws@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Illustration, Pixel Art, and Character Design portfolio by Danielle Kuindersma
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "portfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: danikdraws
 github_username:  danikdraws
 
 defaults:
   - scope:
-      path: "portfolio/assets/img" 
+      path: "assets/img" 
     values:
       image: true
 
