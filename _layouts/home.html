@@ -6,7 +6,7 @@ layout: "wrapper"
 	{% assign image_files = site.static_files | where: "image", true %}
 		<ul class="grid effect-2" id="grid">
 			{% for myimage in image_files %}
-			<li><img src="{{ myimage.path | absolute_url }}"></a></li>
+			<li><img src="{{ myimage.path }}"></a></li>
 			{% endfor %}
 		</ul>
 	</div>

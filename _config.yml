@@ -29,7 +29,7 @@ github_username:  danikdraws
 
 defaults:
   - scope:
-      path: "assets/img" 
+      path: "portfolio/assets/img" 
     values:
       image: true
 
